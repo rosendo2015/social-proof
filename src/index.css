@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 :root {
   --VeryDarkMagenta: #502050;
   --SoftPink: #ee68a4;
@@ -16,14 +11,12 @@ body {
   max-width: 23.5rem;
   margin-inline: auto;
   font-family: "League Spartan", sans-serif;
-  background-color: #f0f0f0;
+  background-color: #2c2c2c;
 }
 .container {
+  background: var(--White);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  border: 1px solid red;
-  padding-inline: 2rem;
+  padding: 4rem 1rem;
 }
