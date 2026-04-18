@@ -15,6 +15,7 @@
 - React
 - Vite
 - Tailwind
+- typescript
 - HTML;
 - css;
 - Git e Github;
