@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# Desafio SOCIA PROOF SECTION.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![preview](.github/desktop-preview.jpg)
 
-Currently, two official plugins are available:
+# Desafio SOCIAL PROOF com design responsivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![preview](.github/mobile-design.jpg)
 
-## React Compiler
+- Responsividade: é um conceito de desenvolvimento Web focado em fazer a experiência e comportamento de websites mais otimizada para todos os dispositivos, desde o desktop até um dispositivo móvel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Trilha FullStack - Projeto feito para cumprir desafio TECH NEWS - PORTAL DE NOTICIAS - Rocketseat :rocket:.
 
-## Expanding the ESLint configuration
+## :hammer_and_wrench: Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- Vite
+- Tailwind
+- HTML;
+- css;
+- Git e Github;
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## :nut_and_bolt: Neste projeto aprendi
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Semântica em HTML
+- Box Model
+- Display GRID
+- Acessibilidade
+- Tags semanticas
+- Entidade que regulamenta a semantica no Brasil [W3C](https://www.w3c.br/Padroes/WebSemantica)
+- Conceito da programação chamado <b>REFATORAÇÃO</b>: mudar algo interno na página sem estragar o que esta funcionando, é feito com a intenção de melhorar algo interno no código do site.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Trabalhamos com alinhamento e espaçamento dos elementos
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Pseudo classes
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- background linear-gradient
+- Analizar um projeto com design feito no Figma;
+- Usar fontes do Google Fonts;
+- Posicionar os elementos na tela usando a propriedade
+ <strong>position: absolute, relative e fixed</strong>;
+
+
+## :mailbox_closed: Contatos
+
+> Email - rosendc30@gmail.com
+
+> Linkedin - https://www.linkedin.com/in/francisco-rosendo-a05623241/# rocketnews
