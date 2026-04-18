@@ -4,7 +4,7 @@ type Props = {
 }
 export function StarCard({ message }: Props) {
     return (
-        <div className=" w-full bg-[var(--LightGrayishMagenta)] flex items-center justify-center flex-col gap-3 py-3 rounded-lg mb-4">
+        <div className="hover:shadow-lg lg:w-[25.5rem] bg-[var(--LightGrayishMagenta)] flex items-center justify-center flex-col gap-3 py-3 rounded-lg mb-4 lg:flex-row lg:fit-content lg:justify-start lg:gap-6 lg:py-4 lg:px-6 transition-all duration-300">
             <div className='flex gap-2'>
                 <img src={StarIcon} alt="star icon" />
                 <img src={StarIcon} alt="star icon" />
